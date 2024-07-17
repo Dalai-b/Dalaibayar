@@ -1,0 +1,70 @@
+h1{
+    color:rgb(38, 38, 38);
+    text-align: center;
+    line-height: 75px;
+    margin: 0;
+}
+body{
+    background-color: rgb(38, 38, 38);
+    text-align: center;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color:  rgb(38, 38, 38);
+    margin: 0;
+}
+header{
+    padding: 30px;
+    position: fixed;    
+    top: 0;
+    background: linear-gradient(0deg, rgba(255,253,0,1) 0%, rgba(253,118,45,1) 100%);
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+}
+header h1{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: 0;
+    text-align: center;
+}
+footer{
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+    line-height: 25px;
+    position: fixed;
+    top: 660px;
+    width: 100%;
+}
+p{
+    color: white;
+    text-align: center;
+}
+img{
+    border: 2px;
+    border-radius: 20px;
+}
+div{
+    margin: 0;
+    top: 110px;
+}
+h3 {
+    color: rgb(38, 38, 38)
+}
+h2 {
+    color: rgb(38, 38, 38)
+}
+.invis{
+    color: rgb(38, 38, 38);
+}
+header a{
+    margin: 20px;
+}

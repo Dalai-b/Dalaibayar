@@ -1,0 +1,50 @@
+h1{
+    color:rgb(38, 38, 38);
+    text-align: center;
+    line-height: 75px;
+}
+body{
+    background-color: rgb(38, 38, 38);
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(38, 38, 38);
+}
+header{
+    padding: 30px;
+    position: fixed;    
+    background: linear-gradient(0deg, rgba(255,253,0,1) 0%, rgba(253,118,45,1) 100%);
+    width: 100%;
+    padding: 10px;
+}
+header h1{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    text-align: center;
+    margin: 0;
+}
+main{
+    margin: 0;
+    text-align: center;
+    width: 100%
+}
+img{
+    width: 100%;
+}
+.footer{
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+    line-height: 25px;
+    width: 100%;
+    position: fixed;
+    top: 660px;
+}
+p{
+    color: white;
+}
+header a{
+    margin: 20px;
+}

@@ -1,0 +1,278 @@
+header {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(40, 40, 40);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 5px solid rgb(rgb(128, 128, 128))
+}
+main{
+    width: 100%;
+    height: 90%;
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.logo{
+    width: 25%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.home{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile{
+    width: 25%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-right: 13px;
+}
+.menu{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 12px;
+}
+.postspace{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contacts{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 12px;
+}
+.facelogo{
+    width: 16.5%;
+    height: 100%;
+
+    border-radius: 100px;
+}
+.searchbar{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(65, 65, 65);
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 15px;
+    gap: 10px;
+}
+.homelogo{
+    width: 20%;
+    height: 100%;
+    border-bottom: 5px solid #00000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homelogo:hover{
+    border-bottom: solid rgb(72, 44, 255);
+}
+.profilelink{
+    width: 16.5%;
+    height: 100%;
+    border-radius: 100px;
+    background-color: rgb(65, 65, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menulink{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.menulogo{
+    height: 100%;
+    width: 19%;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(50, 50, 50);
+}
+.menuminilink{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(210,210,210);
+}
+.contactlink{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.contactlogo{
+    height: 100%;
+    width: 19%;
+    border-radius: 15px;
+}
+.contactminilink{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(210,210,210);
+}
+.post{
+    margin-top: 10px;
+    height: 90%;
+    width: 100%;
+    background-color: rgb(40, 40, 40);
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.postprofile{
+    width: 95%;
+    height: 10%;
+    gap: 10px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+.postimg{
+    width: 100%;
+    height: 70%;
+    margin: 0;
+}
+.postinteract{
+    width: 100%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.logoimage{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+}
+.searchtext{
+    color: rgba(255, 255, 255, 0.541);
+}
+.miniimage{
+    width: 50%;
+    height: 50%;
+}
+.miniimage2{
+    width: 40%;
+    height: 40%;
+}
+.profilelinkalter{
+    width: 16.5%;
+    height: 100%;
+    border-radius: 100px;
+    background-color: rgb(65, 65, 65);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 15px;
+}
+.miniimage3{
+    width: 60%;
+    height: 60%;
+}
+.miniimage4{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.postpfp{
+    height: 100%;
+    width: 11%;
+}
+.postdesc{
+    height: 80%;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.descname{
+    width: 100%;
+    color: rgb(210,210,210);
+}
+.descdesc{
+    color: rgb(135, 135, 135);
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.tinyimage{
+    height: 20px;
+    width: 20px;
+}
+.miniimage5{
+    width: 100%;
+    height: 100%;
+}
+.posttext{
+    width: 95%;
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(210,210,210);
+}
+.postinteractions{
+    width: 30%;
+    height: 100%;
+    gap: 5px;
+    color: rgb(135,135,135);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.postinteractions:hover{
+    color: rgb(72, 44, 255);
+}

@@ -1,0 +1,77 @@
+h1{
+    color:rgb(38, 38, 38);
+    text-align: center;
+    line-height: 75px;
+}
+body{
+    background-color: rgb(38, 38, 38);
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(38, 38, 38);
+}
+header{
+    padding: 30px;
+    position: fixed;    
+    background: linear-gradient(0deg, rgba(255,253,0,1) 0%, rgba(253,118,45,1) 100%);
+    width: 100%;
+    padding: 10px;
+    top: 0;
+}
+header h1{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+p{
+    color: white;
+}
+h2{
+    background-color: rgb(38, 38, 38);
+    color:rgb(254, 150, 6);
+    margin: 15px;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+}
+li{
+    color: white;
+    margin: 0;
+}
+ul {
+    margin-top: 0;
+}
+nav{
+    text-align: center;
+    margin: 0;
+}
+.footer{
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+    line-height: 25px;
+    width: 100%;
+    position: fixed;
+    top: 660px;
+}
+header a{
+    margin: 20px;
+}
+.Day{
+    border-radius: 10px;
+    width: 35%;
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    flex-direction: column;
+}
+.invis{
+    color: rgb(38, 38, 38);
+}
