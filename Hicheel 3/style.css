@@ -19,6 +19,9 @@ a{
     justify-content: center;
     margin: 0;
 }
+a:hover{
+    background-color: rgb(235, 234, 234);
+}
 header{
     margin: 0;
 }
