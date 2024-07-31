@@ -13,21 +13,6 @@ body{
 .nav h2{
     color: rgb(135, 135, 135);
 }
-a{
-    text-decoration: none;
-    color: rgb(135,135,135);
-    border: solid rgb(135,135,135) 1px;
-    border-radius: 100px;
-    padding-left: 10px;
-    padding-right: 10px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-a:hover{
-    background-color: rgb(235, 235, 235);
-}
 p{
     color: rgb(135,135,135);
 }
@@ -97,4 +82,59 @@ main{
 }
 ul{
     color: rgb(135,135,135);
+}
+html {
+    scroll-behavior: smooth;
+}
+a{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+  }
+a:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(235, 235, 235);
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    border-radius: 100px;
+  }
+  a:hover, a:focus, a:active {
+    color: rgb(135, 135, 135);
+  }
+  a:hover:before, a:focus:before, a:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  a{
+    text-decoration: none;
+    color: rgb(135,135,135);
+    border: solid rgb(135,135,135) 1px;
+    border-radius: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
