@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-color: #00c1b5;
+    margin: 18px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 5vh;
+    padding-right: 40px;
+}
+.logo{
+    width: 18%;
+}
+.coverimg{
+    width: 29%;
+
+}
+.emaillink{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.emaillink:hover{
+    text-decoration: underline;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+main h2{
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin: 0;
+    font-weight: 500;
+}
+.issuelinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    height: 20vh;
+    z-index: 2;
+}
+.issuelinks a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.issuelinks a:hover{
+    text-decoration: underline;
+}
+.issuelinks p{
+    margin: 0;
+    font-weight: 600;
+    font-size: 15px;
+}
+footer{
+    position: fixed;
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    top: 480px;
+    z-index: 1;
+}
+.summary{
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 530;
+}
+.summary p{
+    font-size: 12px;
+}
+.summary p a{
+    color: black;
+}
+.summary p a:hover{
+    text-decoration: none;
+}
+.summary a h3{
+    font-size: 19px;
+    font-weight: 530;
+    text-decoration: underline;
+    color: black;
+}
+.summary a h3:hover{
+    text-decoration: none;
+}
+.issuechapters{
+    gap: 7px;
+    display: flex;
+    flex-direction: column;
+    width: 7%;
+}
+.issuechapters p{
+    margin: 0;
+    font-size: 18px;
+}
